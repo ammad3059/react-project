@@ -1,0 +1,52 @@
+.menu {
+  background-color: darkslategray;
+}
+
+.menu-wrapper {
+  display: flex;
+}
+
+.menuLeft {
+  flex: 4;
+  margin-left: 20px;
+}
+
+.menuRight {
+  flex: 1;
+}
+
+.menuRight > img {
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+
+.big-title {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: white;
+  width: 65%;
+}
+
+.boxes {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.menu-box {
+  background-color: dimgray;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  margin-right: 10px;
+  color: white;
+}

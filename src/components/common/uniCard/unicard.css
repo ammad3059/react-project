@@ -1,0 +1,47 @@
+.uni-card-wrapper {
+  margin: 40px 15px;
+  box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+}
+
+.uni-top {
+  height: 200px;
+  width: 100%;
+}
+
+.uni-top > img {
+  height: inherit;
+  max-width: 100%;
+  position: absolute;
+}
+
+.uni-bottom {
+  background-color: darkolivegreen;
+  color: white;
+  position: relative;
+  padding: 5px 20px;
+  padding-bottom: 30px;
+}
+
+.uni-title {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.uni-icon {
+  position: absolute;
+  margin-top: -30px;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 45px;
+}
+
+.uni-amount {
+  margin-bottom: 50px;
+}

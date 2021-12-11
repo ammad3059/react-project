@@ -1,0 +1,11 @@
+.Collapsible__trigger {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  border-bottom: 2px solid gray;
+}
+
+.Collapsible__contentInner {
+  padding: 10px 5px;
+}

@@ -1,0 +1,19 @@
+.box {
+  border-radius: 10px;
+  background-color: dimgray;
+  display: flex;
+  padding: 15px 25px;
+  margin-right: 40px;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: column;
+  box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+}
+
+.box-head {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 15px;
+}

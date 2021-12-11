@@ -1,0 +1,62 @@
+.resource-section {
+  background-color: darkslategrey;
+}
+
+.resource-title {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resource-info {
+  height: 400px;
+  display: flex;
+  background-color: lightslategray;
+  box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+}
+
+.resource-wrapper {
+  height: 500px;
+  width: 100%;
+}
+
+.resource-info > img {
+  flex: 3;
+  object-fit: fill;
+  height: inherit;
+}
+
+.resource-info-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  padding: 50px 20px;
+}
+
+.resource-heading {
+  font-weight: 650;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.btn-resource {
+  width: 200px;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: lightgreen;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.resource-paragraph {
+  color: white;
+  margin-bottom: 30px;
+  width: 400px;
+}

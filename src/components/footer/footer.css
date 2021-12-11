@@ -1,0 +1,35 @@
+.footer {
+  background-color: darkslategrey;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid gray;
+}
+
+.footerLeft {
+  margin-left: 10px;
+  display: flex;
+  color: green;
+  align-items: center;
+}
+
+.footerLeft > h5 {
+  color: white;
+}
+
+.logo {
+  margin-right: 5px;
+}
+
+.icons {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  border-radius: 50%;
+  background-color: darkslategrey;
+  margin: 0px 10px;
+}

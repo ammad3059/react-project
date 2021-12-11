@@ -1,0 +1,27 @@
+.student-success {
+  background-color: darkslategray;
+  text-align: center;
+}
+
+.student-success-boxes {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.student-success-title {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.student-success-btn {
+  width: 200px;
+  padding: 10px 15px;
+  background-color: lightgreen;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

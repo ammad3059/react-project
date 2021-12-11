@@ -1,0 +1,56 @@
+.rated-card {
+  background-color: darkslategrey;
+}
+
+.rated-card-wrapper {
+  margin: 40px 15px;
+  box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(28, 26, 26, 0.21);
+}
+
+.rated-top {
+  height: 200px;
+  width: 100%;
+}
+
+.rated-top > img {
+  height: inherit;
+  max-width: 100%;
+  position: absolute;
+}
+
+.rated-bottom {
+  background-color: darkolivegreen;
+  color: white;
+  position: relative;
+  padding: 5px 20px;
+  padding-bottom: 30px;
+}
+
+.rated-discount {
+  float: right;
+  padding: 5px 8px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: chocolate;
+}
+
+.rated-title {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.rated-icon {
+  position: absolute;
+  margin-top: -30px;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+}
+
+.content {
+  margin-top: 45px;
+}

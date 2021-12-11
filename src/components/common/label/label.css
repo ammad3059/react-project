@@ -1,0 +1,28 @@
+.label {
+  padding-top: 40px;
+  background-color: darkslategrey;
+  text-align: center;
+  color: green;
+}
+
+.label-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.parts {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.center {
+  background-color: limegreen;
+}
+
+hr {
+  border: none;
+  width: 50px;
+  height: 8px;
+  opacity: 0.4;
+  background-color: lightgreen;
+}

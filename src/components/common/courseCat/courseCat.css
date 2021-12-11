@@ -1,0 +1,35 @@
+.course-cat-wrapper {
+  display: flex;
+  height: 100px;
+  margin: 40px 15px;
+  width: 400px;
+}
+
+.course-cat-left {
+  height: inherit;
+  width: 100px;
+}
+
+.course-cat-img {
+  height: inherit;
+  width: 100%;
+  object-fit: cover;
+}
+
+.course-cat-right {
+  background-color: dimgray;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+.course-cat-title {
+  color: white;
+  font-style: 20px;
+  font-weight: 600;
+}
+
+.course-cat-subtitle {
+  color: white;
+  font-size: 15px;
+}

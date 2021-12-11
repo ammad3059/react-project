@@ -1,0 +1,14 @@
+.service {
+  background-color: darkslategray;
+  padding: 20px;
+}
+
+.service-boxes {
+  display: flex;
+  align-items: center;
+}
+
+.service-head {
+  color: white;
+  text-align: center;
+}
